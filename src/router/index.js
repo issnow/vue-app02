@@ -30,6 +30,11 @@ const routes = [
     name: 'setup',
     component: () => import('../views/02setup/01index.vue'),
   },
+  {
+    path: '/rxjs',
+    name: 'rxjs',
+    component: () => import('../views/03rxjs/01index.vue'),
+  },
 ];
 
 const router = createRouter({
