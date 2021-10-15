@@ -20,6 +20,16 @@ const routes = [
     name: 'page',
     component: () => import('../views/page.vue'),
   },
+  {
+    path: '/provide',
+    name: 'provide',
+    component: () => import('../views/01provide-inject/01Provide-Inject.vue'),
+  },
+  {
+    path: '/setup',
+    name: 'setup',
+    component: () => import('../views/02setup/01index.vue'),
+  },
 ];
 
 const router = createRouter({
